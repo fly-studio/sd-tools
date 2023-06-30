@@ -1,0 +1,27 @@
+sd:
+  path: "" #
+  models:
+    StableDiffusion: "models/Stable-diffusion"
+    Codeformer: "models/Codeformer"
+    ControlNet: "models/ControlNet"
+    Lora: "models/Lora"
+    deepbooru: "models/deepbooru"
+    deepdanbooru: "models/deepdanbooru"
+    ESRGAN: "models/ESRGAN"
+    GFPGAN: "models/GFPGAN"
+    hypernetworks: "models/hypernetworks"
+    karlo: "models/karlo"
+    LDSR: "models/LDSR"
+    RealESRGAN: "models/RealESRGAN"
+    ScuNET: "models/ScuNET"
+    SwinIR: "models/SwinIR"
+    torch_deepdanbooru: "models/torch-deepdanbooru"
+    VAE: "models/VAE"
+    VAE_approx: "models/VAE-approx"
+  control_net:
+    annotator: "extensions/sd-webui-controlnet/annotator/downloads"
+    openpose: "extensions/sd-webui-controlnet/annotator/openpose"
+    midas: "extensions/sd-webui-controlnet/annotator/midas"
+    models: "extensions/sd-webui-controlnet/models"
+  scripts: "scripts"
+  embeddings: "embeddings"

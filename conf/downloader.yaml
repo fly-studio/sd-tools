@@ -1,0 +1,20 @@
+host: 0.0.0.0:80
+debug: true
+
+max_tasks: 3
+threads_per_task: 5
+
+log:
+  file_path: logs/sd-downloader.log
+
+proxy:
+  address: http://127.0.0.1:1080
+  domains:
+    - "*.google.com"
+    - "civitai.com"
+    - "*.civitai.com"
+    - "github.com"
+    - "*.github.com"
+    - "*.githubusercontent.com"
+    - "huggingface.co"
+    - "*.huggingface.co"
